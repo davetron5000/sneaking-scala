@@ -4,7 +4,6 @@
 * Energy Efficiency
 * Java Shop
 
-
 !SLIDE bullets incremental
 # What we do
  * Work with power companies
@@ -21,9 +20,9 @@
 !SLIDE bullets incremental
 # The Company
 
- * Post-startup
- * Making money
- * Not significantly funded
+ * Small business
+ * We make money
+ * Not burning through VC
 
 !SLIDE bullets incremental
 # The Culture
@@ -32,3 +31,11 @@
  * but Delivery Oriented
  * Technology is Key
  * Top-notch Talent
+
+!SLIDE 
+# So What? #
+
+!SLIDE
+# Java Serves Us Well #
+
+

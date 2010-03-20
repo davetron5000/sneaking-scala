@@ -4,6 +4,6 @@
 
 !SLIDE bullets incremental
 # Scala in your Organization
- * Why?
+ * Why do we care?
  * What makes it hard?
  * What makes it possible?
