@@ -16,13 +16,8 @@
 ## (Resume-Driven Development)
 
 !SLIDE 
-# More productive
-
-!SLIDE 
-# More productive
-# More expressive
+# Better employee
 
 !SLIDE
-# More productive
-# More expressive
-# The future of JVM?
+# Better developer
+

@@ -1,5 +1,6 @@
 [ 
 {"section":"intro"},
-{"section":"me"},
-{"section":"why_scala"} 
+{"section":"why_scala"},
+{"section":"getting_it_done"},
+{"section":"web_testing"} 
 ]
