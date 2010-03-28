@@ -30,7 +30,7 @@
     @@@ Scala
     class PersonService {
       this: PersonDAO with UtilityDAO => 
-    //^^^^^ What is the even called?! ^^^
+    //^^^^^ What is this even called?!^^^
       def login(name:String, password:String) = {
         if (checkPassword(name,password)) 
           val token = recordLogin(name)

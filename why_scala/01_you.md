@@ -15,9 +15,15 @@
 # RDD?
 ## (Resume-Driven Development)
 
-!SLIDE 
+!SLIDE bullets incremental
 # Better employee
+* Get more done
+* Get it done better
 
-!SLIDE
+!SLIDE bullets incremental
 # Better developer
+* Solve problems in new ways
+* ["Lead or Bleed"](http://www.pragprog.com/titles/cfcar2/the-passionate-programmer)
 
+!SLIDE 
+# So,why should *your* company want Scala?

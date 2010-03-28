@@ -2,10 +2,10 @@
 # My Company
 
 !SLIDE bullets incremental
-# OPOWER
-* SASS
+# ![OPOWER](opower.png "OPOWER")
+* Software as a Service
 * Java Shop
-* Make Money
+* We actually Make Money
 
 !SLIDE 
 # We are married only to what works
@@ -13,10 +13,9 @@
 !SLIDE
 # The business *is* the technology
 
-!SLIDE center
-![Obama](obama.jpg)
-
 !SLIDE
 # Java Serves Us Well #
 
+!SLIDE center
+![Obama](obama.jpg)
 

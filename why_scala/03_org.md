@@ -7,6 +7,17 @@
 !SLIDE
 # Talent attractor?
 
+!SLIDE
+# It's a great fit as a new language
+
+!SLIDE center
+# It's a great fit as a new language
+![Comparison](comparison.jpg)
+
+!SLIDE center
+# It's a great fit as a new language
+![Comparison](comparison2.jpg)
+
 !SLIDE 
 # Why SHOULDN'T your company want Scala?
 
@@ -47,7 +58,7 @@
 
     @@@ Scala
     def aboveThreshold(
-            readings:Array[EnergyReading]) = 
+        readings:Array[EnergyReading]) = 
       readings filter (_.kwh > THRESH) size
 
 !SLIDE
