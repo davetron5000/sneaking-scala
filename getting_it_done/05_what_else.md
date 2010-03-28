@@ -3,12 +3,11 @@
 ![Arch](arch.png)
 
 !SLIDE center
-# Testing?
+# Testing!
 ![Testing](with_testing.png)
  
 !SLIDE
 # No new deployment dependencies
 
 !SLIDE
-# Can focus on one area
-
+# Can focus on your problem domain/application architecture

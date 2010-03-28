@@ -1,8 +1,6 @@
 !SLIDE center
+# What about application endpoints?
 ![Controller Focus](controller_focus.png)
-
-!SLIDE smaller
-# Application Endpoints
 
 !SLIDE 
 # DaveWeb5000 Controller
@@ -35,6 +33,5 @@
 
 !SLIDE bullets incremental
 # Low Risk, Low Value
-* Endpoints are light/dumb
 * "Power of Scala" has little to add
-* Need framework with Scala in mind
+* Java frameworks didn't have Scala in mind

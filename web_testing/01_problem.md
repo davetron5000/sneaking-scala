@@ -1,16 +1,17 @@
 !SLIDE
-# What we did
+# What OPOWER did
 
 !SLIDE center
 # Web Testing
 ![Web Testing](web_testing.png)
  
-!SLIDE bullets incremental
-# Low Risk, High Value
-* Web Testing new
-* Testing API new
-* Something to learn anyway
-* Why not some Scala?
+!SLIDE small bullets incremental
+# Web Testing
+* A New Concept
+* Key to success
+* New API to learn for eveyone
+* Can we sneak in Scala?
+* (and add value :)
 
 !SLIDE smaller
 # HTMLUnit/JWebUnit is assembly language
@@ -32,8 +33,10 @@
 
     @@@ Scala
     def someTest = {
-      go home and login as "dave@blah.com"
+      goto http://localhost 
+        and login as "dave@blah.com"
         with password "foobar69"
-      should be on page 'protected
+      should be on page "protected"
       should see <h1>Hello Dave</h1>
+        and link:"logout"
     }

@@ -1,31 +1,12 @@
-!SLIDE bullets incremental
-# Why should your company want Scala?
-* More productive
-* More expressive
-* (less bugs, right?)
-
-!SLIDE
-# Talent attractor?
-
-!SLIDE
-# It's a great fit as a new language
-
-!SLIDE center
-# It's a great fit as a new language
-![Comparison](comparison.jpg)
-
-!SLIDE center
-# It's a great fit as a new language
-![Comparison](comparison2.jpg)
-
 !SLIDE 
-# Why SHOULDN'T your company want Scala?
+# Why _SHOULDN'T_ your company want Scala?
 
 !SLIDE
 # Steep learning curve
 
 !SLIDE
 # C++
+
     @@@ C
     int above_threshold(EnergyReading readings[], 
             int size) {
@@ -67,3 +48,23 @@
 !SLIDE
 # What if Scala loses?
 
+!SLIDE bullets incremental
+# Why should _your_ company want Scala?
+* More productive
+* More expressive
+* (less bugs, right?)
+
+!SLIDE
+# Talent attractor
+
+!SLIDE center
+# Natural progression on the JVM
+![Comparison](comparison.jpg)
+
+!SLIDE center
+# Natural progression on the JVM
+![Comparison](comparison2.jpg)
+
+!SLIDE center 
+# Deployment curve isn't steep
+## ![Curves](curves.png)

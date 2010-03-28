@@ -1,8 +1,6 @@
 !SLIDE center
-![Service Focus](service_focus.png)
-
-!SLIDE smaller
 # Business Logic
+![Service Focus](service_focus.png)
 
 !SLIDE center
 # Fully Armed and Operational Programming Language
@@ -41,7 +39,7 @@
     }
 
 !SLIDE smaller
-# Too much, too soon
+# New Concept Overload
 
     @@@ Scala
     object MyParser {
@@ -64,7 +62,8 @@
     }
 
 !SLIDE bullets incremental
-# High Risk, High Value
-* Maintainability
-* Learnability
-* Searchability
+# High Risk but High Value
+* This _will_ be Scala's bread and butter
+* (eventually)
+* Learnability and Maintainability hits in short term
+

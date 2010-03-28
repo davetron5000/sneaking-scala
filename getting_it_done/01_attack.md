@@ -1,23 +1,18 @@
 !SLIDE
 # How do we make this happen?
 
-!SLIDE center
+!SLIDE bullets incremental
 # C++ to Java
-![C++ App](cpp1.png)
-* *a history lesson*
+* Replace existing apps
+* New apps
+* New libraries
+* New deployment
 
-!SLIDE center
-# C++ to Java
-![C++ App with Java](cpp2.png)
-* *a history lesson*
-
-!SLIDE center
-# C++ to Java
-![Java Complete](cpp3.png)
-* *a history lesson*
-
-!SLIDE center
-# Don't need to replace your apps
+!SLIDE center bullets incremental
+# Java to Scala
+* Replace components
+* Reuse libraries
+* Same deployment
 
 !SLIDE center
 # Java to Scala
@@ -36,10 +31,16 @@
 ![Scala Components](java4.png)
 
 !SLIDE center
-# Don't need the entire language or library
+# Don't need to abandon Java
 
 !SLIDE center
-# Less risk
+# Don't need the entire Scala language to get started
+
+!SLIDE center
+# Don't need the entire Scala _library_ to get started
+
+!SLIDE center
+# Getting started carries less risk
 
 !SLIDE center
 # Is this realistic?

@@ -17,12 +17,12 @@
 
 !SLIDE bullets incremental
 # Ground Rules for DSL
-* No new operators
 * Consistent syntax
 * Minimize new concepts
+* No new operators
 
 !SLIDE small
-# How many new concepts here?
+# How many new concepts?
 
     @@@ Scala
     class WebTestLogin extends WebTestSpec { 
@@ -54,6 +54,7 @@
 * Mixins
 * Case Classes
 * Collections
+* All fair game
 
 !SLIDE small bullets incremental
 # Ground Rules for Implementation
@@ -62,7 +63,7 @@
 * Minimze type parameters
 * No f!%$%ing underscore
 * Lots of scaladoc
-* Comments
+* "How" and "What" Comments
 
 !SLIDE small
 # Comments
@@ -95,4 +96,4 @@
 # Collections + Closures simplify many things
 
 !SLIDE
-# DSL implementation would've taken too long
+# DSL implementation would've taken too long in Java

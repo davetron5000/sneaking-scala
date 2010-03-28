@@ -1,4 +1,5 @@
 !SLIDE center
+# Model/Persistence Layer
 ![Model Focus](model_focus.png)
 
 !SLIDE smaller
@@ -87,6 +88,10 @@
 !SLIDE center
 # Already have a ton
 ![Lots of them](model_classes.png)
+!SLIDE center
+
+# Don't make new ones that often
+![Lots of them](model_classes.png)
 
 !SLIDE
 # Sharp Edges
@@ -98,5 +103,5 @@
       @BeanProperty var birthdate:Date,
       @BeanProperty var gender:Char,
       @BeanProperty var email:String,
-      // Java cannot deal with Scala Lists
+      // Java ORMs cannot deal with Scala Lists
       @BeanProperty var addresses:List[Address])

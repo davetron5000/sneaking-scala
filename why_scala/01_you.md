@@ -1,19 +1,17 @@
-!SLIDE
-# Why should you want Scala?
+!SLIDE bullets incremental
+# Why should _you_ want Scala?
 
-!SLIDE 
-# It's fun? 
+* It's fun? 
+* Better (than Java)?
+* RDD?
+    
 
-!SLIDE 
-# Better (than Java)?
+!SLIDE bullets 
+# Why should _you_ want Scala?
 
-!SLIDE
-# RDD?
-## 
-
-!SLIDE
-# RDD?
-## (Resume-Driven Development)
+* It's fun? 
+* Better (than Java)?
+* RDD (Resume-Driven Development)?
 
 !SLIDE bullets incremental
 # Better employee
@@ -25,5 +23,10 @@
 * Solve problems in new ways
 * ["Lead or Bleed"](http://www.pragprog.com/titles/cfcar2/the-passionate-programmer)
 
+!SLIDE bullets incremental
+# Scala specific reasons
+* Like static typing
+* Believe OO and FP are both useful
+
 !SLIDE 
-# So,why should *your* company want Scala?
+# So, why should *your* company want Scala?

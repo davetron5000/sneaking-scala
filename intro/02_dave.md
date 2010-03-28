@@ -3,20 +3,11 @@
 
 !SLIDE 
 # Dave Copeland
+## @davetron5000
+## [(Another) Tour of Scala](http://www.naildrivin5.com/scalatour)
 
-!SLIDE 
-# @davetron5000
-
-!SLIDE 
-# github.com/davetron5000
-
-!SLIDE center
+!SLIDE center bullets incremental
 # Software Engineer @
-![OPOWER](opower.png "OPOWER")
-
-!SLIDE 
-# 10+ years of Java
-
-!SLIDE center
-# Apps like this
-![My Apps](arch.png "Application Architecture")
+## ![OPOWER](opower.png "OPOWER")
+* 10+ years of Java
+* Built apps like this: ![My Apps](arch.png "Application Architecture")
