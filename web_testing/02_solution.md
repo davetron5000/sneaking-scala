@@ -18,8 +18,8 @@
 !SLIDE bullets incremental
 # Ground Rules for DSL
 * Consistent syntax
-* Minimize new concepts
 * No new operators
+* Minimize new concepts
 
 !SLIDE small
 # How many new concepts?
@@ -61,9 +61,9 @@
 * No implicits
 * Imperative/OO design
 * Minimze type parameters
-* No f!%$%ing underscore
 * Lots of scaladoc
 * "How" and "What" Comments
+* No f!%$%ing underscore :)
 
 !SLIDE small
 # Comments
@@ -77,11 +77,9 @@
       ...
     }
 
-!SLIDE 
+!SLIDE  bullets incremental
 # Couldn't this have been done in Java?
-
-!SLIDE 
-# Certainly, but...
+* Certainly, but...
 
 !SLIDE 
 # Implementation would've been rough

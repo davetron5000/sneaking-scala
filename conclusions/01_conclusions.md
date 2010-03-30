@@ -2,7 +2,7 @@
 # Conclusions #
 
 !SLIDE
-# Scala provides value to you
+# Scala provides value to you as a developer
 
 !SLIDE bullets incremental
 # Scala can provide value to your organization
@@ -17,13 +17,13 @@
 # Testing is an easy win
 
 !SLIDE
-# Minimize concepts to smooth learning curve
+# Smooth the learning curve
+* Gradually introduce new concepts
+* Minimize bells & whistles
+* Consistent syntax, initially
 
 !SLIDE
-# Minimize bells & whistles to smooth learning curve
-
-!SLIDE
-# Be successful with Scala and it WON'T "lose"
+# Succeed with Scala and it WON'T lose
 
 !SLIDE bullets
 # Thank You

@@ -48,28 +48,6 @@
 # Model Objects
 
     @@@ Scala
-    class Person(
-      var firstName:String,
-      var lastName:String,
-      var birthdate:Date,
-      var gender:Char,
-      var email:String)
-
-!SLIDE
-# Model Objects
-
-    @@@ Scala
-    case class Person(
-      var firstName:String,
-      var lastName:String,
-      var birthdate:Date,
-      var gender:Char,
-      var email:String)
-
-!SLIDE
-# Model Objects
-
-    @@@ Scala
     case class Person(
       @BeanProperty var firstName:String,
       @BeanProperty var lastName:String,
@@ -81,6 +59,7 @@
 # Low Risk, High Value
 * Very little Scala Knowledge
 * HUGE reduction in code size
+* Very expressive
 
 !SLIDE 
 # Two Problems
@@ -103,5 +82,5 @@
       @BeanProperty var birthdate:Date,
       @BeanProperty var gender:Char,
       @BeanProperty var email:String,
-      // Java ORMs cannot deal with Scala Lists
+      // Java ORMs cannot deal with Scala Collections
       @BeanProperty var addresses:List[Address])

@@ -66,4 +66,5 @@
 * This _will_ be Scala's bread and butter
 * (eventually)
 * Learnability and Maintainability hits in short term
+* Requires on-site or in-house experts
 

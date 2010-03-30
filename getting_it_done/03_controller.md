@@ -30,8 +30,8 @@
       }
     }
 
+!SLIDE 
+# "Power of Scala" has little to add
 
-!SLIDE bullets incremental
+!SLIDE 
 # Low Risk, Low Value
-* "Power of Scala" has little to add
-* Java frameworks didn't have Scala in mind

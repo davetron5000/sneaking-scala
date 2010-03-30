@@ -3,28 +3,15 @@
 
 !SLIDE bullets incremental
 # C++ to Java
-* Replace existing apps
-* New apps
+* Replace existing apps/write new ones
 * New libraries
-* New deployment
+* New deployment mechanism
 
 !SLIDE center bullets incremental
 # Java to Scala
-* Replace components
+* Replace _components_
 * Reuse libraries
-* Same deployment
-
-!SLIDE center
-# Java to Scala
-![Java App](java1.png)
-
-!SLIDE center
-# Java to Scala
-![Scala Components](java2.png)
-
-!SLIDE center
-# Java to Scala
-![Scala Components](java3.png)
+* Same deployment mechanism
 
 !SLIDE center
 # Java to Scala
@@ -39,11 +26,7 @@
 !SLIDE center
 # Don't need the entire Scala _library_ to get started
 
-!SLIDE center
+!SLIDE bullets incremental
 # Getting started carries less risk
-
-!SLIDE center
-# Is this realistic?
-
-!SLIDE center
-# And does this actually provide value?
+* Is this realistic?
+* And does this actually provide value?

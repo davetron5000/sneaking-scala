@@ -5,15 +5,9 @@
 * Java Shop
 * We actually Make Money
 
-!SLIDE 
+!SLIDE full-page
+![Obama](obama.jpg)
+
+!SLIDE bullets incremental
 # We are married only to what works
-
-!SLIDE bullets incremental
-# Java Works #
-* Successful business
-* Technology *is* the business
-
-!SLIDE bullets incremental
-# ![Obama](obama.jpg)
-* _This is not photoshopped_
-
+* Is your boss?

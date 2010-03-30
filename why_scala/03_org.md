@@ -1,8 +1,11 @@
 !SLIDE 
 # Why _SHOULDN'T_ your company want Scala?
 
-!SLIDE
+!SLIDE bullets incremental
 # Steep learning curve
+* New Syntax
+* Many new concepts
+* Docs, books, community all in early stages
 
 !SLIDE
 # C++
@@ -32,7 +35,7 @@
         }
       }
       return count;
-    }
+    } // no new concepts or syntax here!
 
 !SLIDE
 # Scala
@@ -45,17 +48,25 @@
 !SLIDE
 # Java's delivering
 
-!SLIDE
-# What if Scala loses?
+!SLIDE center
+# Where do I even _find_ a Scala developer?
+![Developers](popularity.png)
+http://langpop.com/
+
+!SLIDE 
+# Why should your company _want_ Scala?
 
 !SLIDE bullets incremental
-# Why should _your_ company want Scala?
+# Fewer bugs
 * More productive
 * More expressive
-* (less bugs, right?)
 
 !SLIDE
 # Talent attractor
+
+!SLIDE center 
+# Deployment curve isn't steep
+## ![Curves](curves.png)
 
 !SLIDE center
 # Natural progression on the JVM
@@ -64,7 +75,3 @@
 !SLIDE center
 # Natural progression on the JVM
 ![Comparison](comparison2.jpg)
-
-!SLIDE center 
-# Deployment curve isn't steep
-## ![Curves](curves.png)
