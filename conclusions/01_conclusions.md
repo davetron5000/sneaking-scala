@@ -16,14 +16,14 @@
 !SLIDE
 # Testing is an easy win
 
-!SLIDE
+!SLIDE bullets incremental
 # Smooth the learning curve
 * Gradually introduce new concepts
 * Minimize bells & whistles
 * Consistent syntax, initially
 
 !SLIDE
-# Succeed with Scala and it WON'T lose
+# Small successes lead to victory
 
 !SLIDE bullets
 # Thank You

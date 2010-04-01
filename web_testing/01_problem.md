@@ -28,15 +28,3 @@
       tester.assertOn(PROTECTED_PAGE);
     }
 
-!SLIDE
-# The ultimate DSL?
-
-    @@@ Scala
-    def someTest = {
-      goto http://localhost 
-        and login as "dave@blah.com"
-        with password "foobar69"
-      should be on page "protected"
-      should see <h1>Hello Dave</h1>
-        and link:"logout"
-    }

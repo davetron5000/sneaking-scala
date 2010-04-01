@@ -59,7 +59,6 @@
 # Low Risk, High Value
 * Very little Scala Knowledge
 * HUGE reduction in code size
-* Very expressive
 
 !SLIDE 
 # Two Problems
@@ -68,9 +67,6 @@
 # Already have a ton
 ![Lots of them](model_classes.png)
 !SLIDE center
-
-# Don't make new ones that often
-![Lots of them](model_classes.png)
 
 !SLIDE
 # Sharp Edges

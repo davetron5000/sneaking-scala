@@ -1,5 +1,5 @@
 !SLIDE
-# Not so fast
+# DSL for web testing *our* app
 
     @@@ Scala
     class WebTestLogin extends WebTestSpec { 
@@ -10,6 +10,34 @@
         page.shouldContain(
           "Hello Dave").inElement("h1")
       })
+    }
+
+!SLIDE
+# Why not the ultimate DSL?
+
+    @@@ Scala
+    def someTest = {
+      goto http://localhost 
+        and login as "dave@blah.com"
+        with password "foobar69"
+      should be on page "protected"
+      should see <h1>Hello Dave</h1>
+        and link:"logout"
+    }
+
+!SLIDE
+# Why not the ultimate DSL?
+
+    @@@ Scala
+    def someTest = {
+      goto http://localhost  // uhh...
+        and login as "dave@blah.com" // ok..
+        with password "foobar69" // umm...
+      // what's calling what here?
+      should be on page "protected"
+      // XML?!  wtf?!
+      should see <h1>Hello Dave</h1>
+        and link:"logout" // colon?!
     }
 
 !SLIDE 
@@ -43,7 +71,7 @@
 * *[3].* Functions/closures - <code>(page) => {</code> is a function literal
  
 !SLIDE bullets incremental
-# Familiar concepts
+# Reinforce familiar concepts
 
 * Dots - x.y == method call - easy to grok
 * <code>page</code> - has an obvious type, we can look up its methods
@@ -51,6 +79,7 @@
 
 !SLIDE small bullets incremental
 # Ground Rules for Implementation
+* Had a weekend to build it
 * Mixins
 * Case Classes
 * Collections
@@ -65,33 +94,13 @@
 * "How" and "What" Comments
 * No f!%$%ing underscore :)
 
-!SLIDE small
-# Comments
-
-    @@@ Scala
-    class Foo {
-      // Scala tip: this means that we require
-      // that instances of Foo be "mixed in" with
-      // Bar; it's called self-type
-      this: Bar => 
-      ...
-    }
-
 !SLIDE  bullets incremental
 # Couldn't this have been done in Java?
 * Certainly, but...
 
-!SLIDE 
-# Implementation would've been rough
-
-!SLIDE 
-# Scala's good at wrapping APIs
-
-!SLIDE 
-# Mixins are better for re-use than single inheritance
-
-!SLIDE 
-# Collections + Closures simplify many things
-
-!SLIDE
+!SLIDE bullets incremental
 # DSL implementation would've taken too long in Java
+* Scala's good at wrapping APIs
+* Mixins are better for re-use than single inheritance
+* Collections + Closures simplify many things
+
