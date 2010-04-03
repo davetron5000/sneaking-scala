@@ -20,5 +20,3 @@
 * Like static typing
 * Believe OO and FP are both useful
 
-!SLIDE 
-# So, why should *your* company want Scala?
