@@ -66,7 +66,6 @@
 !SLIDE center
 # Already have a ton
 ![Lots of them](model_classes.png)
-!SLIDE center
 
 !SLIDE
 # Sharp Edges

@@ -6,38 +6,10 @@
       page("protected",
            (page:PageSpecification) => {
 
-        page.requiresLogin
+        page.requiresLogin()
         page.shouldContain(
           "Hello Dave").inElement("h1")
       })
-    }
-
-!SLIDE
-# Why not the ultimate DSL?
-
-    @@@ Scala
-    def someTest = {
-      goto http://localhost 
-        and login as "dave@blah.com"
-        with password "foobar69"
-      should be on page "protected"
-      should see <h1>Hello Dave</h1>
-        and link:"logout"
-    }
-
-!SLIDE
-# Why not the ultimate DSL?
-
-    @@@ Scala
-    def someTest = {
-      goto http://localhost  // uhh...
-        and login as "dave@blah.com" // ok..
-        with password "foobar69" // umm...
-      // what's calling what here?
-      should be on page "protected"
-      // XML?!  wtf?!
-      should see <h1>Hello Dave</h1>
-        and link:"logout" // colon?!
     }
 
 !SLIDE 
@@ -57,7 +29,7 @@
       page("protected", // *1*
            (page:PageSpecification) => { // *2,3*
 
-        page.requiresLogin
+        page.requiresLogin()
         page.shouldContain(
           "Hello Dave").inElement("h1")
       })
@@ -75,7 +47,6 @@
 
 * Dots - x.y == method call - easy to grok
 * <code>page</code> - has an obvious type, we can look up its methods
-* Braces - they define a scope
 
 !SLIDE small bullets incremental
 # Ground Rules for Implementation
@@ -98,9 +69,6 @@
 # Couldn't this have been done in Java?
 * Certainly, but...
 
-!SLIDE bullets incremental
+!SLIDE 
 # DSL implementation would've taken too long in Java
-* Scala's good at wrapping APIs
-* Mixins are better for re-use than single inheritance
-* Collections + Closures simplify many things
 

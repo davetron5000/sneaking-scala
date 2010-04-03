@@ -10,4 +10,3 @@
 
 !SLIDE bullets incremental
 # We are married only to what works
-* Is your boss?

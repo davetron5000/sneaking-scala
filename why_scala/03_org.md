@@ -7,13 +7,13 @@
 * Many new concepts
 * Docs, books, community all in early stages
 
-!SLIDE
-# Java's delivering
-
 !SLIDE center
 # Where do I even _find_ a Scala developer?
 ![Developers](popularity.png)
 http://langpop.com/
+
+!SLIDE
+# Java's delivering
 
 !SLIDE 
 # Why should your company _want_ Scala?

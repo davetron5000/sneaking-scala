@@ -6,24 +6,21 @@
 
 !SLIDE bullets incremental
 # Scala can provide value to your organization
-* JVM + Static + OO == easiest adoption
-* Productivity
-* Talent Attractor
 
 !SLIDE
-# Use MUST be Low Risk, High Value
+# A gradual introduction minimizes risk, maximizes value
 
 !SLIDE
 # Testing is an easy win
 
 !SLIDE bullets incremental
-# Smooth the learning curve
-* Gradually introduce new concepts
-* Minimize bells & whistles
-* Consistent syntax, initially
+# Tame the learning curve
 
 !SLIDE
 # Small successes lead to victory
+
+!SLIDE
+# Socialize it and then expand its use
 
 !SLIDE bullets
 # Thank You
