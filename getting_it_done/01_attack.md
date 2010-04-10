@@ -21,10 +21,7 @@
 # Don't need to abandon Java
 
 !SLIDE center
-# Don't need the entire Scala language to get started
-
-!SLIDE center
-# Don't need the entire Scala _library_ to get started
+# Don't need the entire Scala language (or library) to get started
 
 !SLIDE bullets incremental
 # Getting started carries less risk
