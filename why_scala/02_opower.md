@@ -5,8 +5,5 @@
 * Java Shop
 * We actually Make Money
 
-!SLIDE full-page
-![Obama](obama.jpg)
-
 !SLIDE bullets incremental
 # We are married only to what works
