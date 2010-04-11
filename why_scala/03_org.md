@@ -1,5 +1,5 @@
 !SLIDE 
-# Why _SHOULDN'T_ your company want Scala?
+# How does Scala *not* _work_ for your company?
 
 !SLIDE bullets incremental
 # Steep learning curve
@@ -19,7 +19,7 @@ http://langpop.com/
 ![Obama says Java is delivering](obama.jpg)
 
 !SLIDE 
-# Why should your company _want_ Scala?
+# How could Scala *work* for your company?
 
 !SLIDE bullets incremental
 # Fewer bugs
