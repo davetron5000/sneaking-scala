@@ -22,7 +22,7 @@
 !SLIDE
 # Socialize it and then expand its use
 
-!SLIDE bullets
+!SLIDE smbullets
 # Thank You
 * [@davetron5000](http://www.twitter.com/davetron5000)
 * dave @ opower.com
@@ -30,3 +30,4 @@
 * [daveblog5000](http://www.naildrivin5.com/blog)
 * [github.com/davetron5000](http://www.github.com/davetron5000)
 * [Slides on Github](http://www.github.com/davetron5000/sneaking-scala)
+* [Slides online](http://sneaking-scala.heroku.com)
