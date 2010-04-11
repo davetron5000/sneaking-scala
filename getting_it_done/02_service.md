@@ -62,9 +62,9 @@
     }
 
 !SLIDE bullets incremental
-# High Risk but High Value
-* This _will_ be Scala's bread and butter
-* (eventually)
-* Learnability and Maintainability hits in short term
-* Requires on-site or in-house experts
+# High Risk 
+* (the arguably high value)
+* A win in the long term
+* Productivity, Maintainability, Learnability hits in the short term
+* Requires on-site or in-house experts (expensive)
 

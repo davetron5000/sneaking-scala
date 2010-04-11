@@ -63,7 +63,6 @@
 * Minimze type parameters
 * Lots of scaladoc
 * "How" and "What" Comments
-* No f!%$%ing underscore :)
 
 !SLIDE  bullets incremental
 # Couldn't this have been done in Java?

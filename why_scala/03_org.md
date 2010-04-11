@@ -15,6 +15,9 @@ http://langpop.com/
 !SLIDE
 # Java's delivering
 
+!SLIDE full-page
+![Obama says Java is delivering](obama.jpg)
+
 !SLIDE 
 # Why should your company _want_ Scala?
 
