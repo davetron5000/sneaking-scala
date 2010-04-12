@@ -77,5 +77,6 @@
       @BeanProperty var birthdate:Date,
       @BeanProperty var gender:Char,
       @BeanProperty var email:String,
-      // Java ORMs cannot deal with Scala Collections
+      // Java ORMs cannot deal with 
+      // Scala Collections
       @BeanProperty var addresses:List[Address])
