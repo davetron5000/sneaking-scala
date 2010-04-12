@@ -3,8 +3,7 @@
 ![Arch](arch.png)
 
 !SLIDE center
-# Testing!
-![Testing](with_testing.png)
+# Testing!  <img src="with_testing.png" height="398" />
  
 !SLIDE
 # No new deployment dependencies

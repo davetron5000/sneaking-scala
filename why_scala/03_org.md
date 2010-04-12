@@ -9,7 +9,9 @@
 
 !SLIDE center
 # Where do I even _find_ a Scala developer?
-![Developers](popularity.png)
+
+!SLIDE 
+# ![Developers](popularity.png)
 http://langpop.com/
 
 !SLIDE
@@ -30,8 +32,7 @@ http://langpop.com/
 # Talent attractor
 
 !SLIDE center 
-# Deployment curve isn't steep
-## ![Curves](curves.png)
+<img src="curves.png" height="500" />
 
 !SLIDE center
 # Natural progression on the JVM

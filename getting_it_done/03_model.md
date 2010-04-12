@@ -64,8 +64,7 @@
 # Two Problems
 
 !SLIDE center
-# Already have a ton
-![Lots of them](model_classes.png)
+# Already have a ton <img src="model_classes.png" height="972" />
 
 !SLIDE
 # Sharp Edges

@@ -2,9 +2,9 @@
 # Business Logic
 ![Service Focus](service_focus.png)
 
-!SLIDE center
-# Fully Armed and Operational Programming Language
-![Fully Armed](death_star.jpg "http://www.flickr.com/photos/flying_cloud/2667225198/")
+!SLIDE center smaller
+# Fully Armed and Operational Programming Language <br /><a href="http://www.flickr.com/photos/flying_cloud/2667225198/"><img src="death_star.jpg" height="384" /></a>
+[_http://www.flickr.com/photos/flying_cloud/2667225198_](http://www.flickr.com/photos/flying_cloud/2667225198)
 
 !SLIDE 
 # Hard to control Learning Curve
