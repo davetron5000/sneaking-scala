@@ -38,6 +38,9 @@
       }
     }
 
+!SLIDE
+<img src="thisroll.jpg" height="577" />
+
 !SLIDE smaller
 # New Concept Overload
 
