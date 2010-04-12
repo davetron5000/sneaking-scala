@@ -26,5 +26,7 @@
       tester.setValue("pass","foobar69");
       tester.submit();
       tester.assertOn(PROTECTED_PAGE);
+      // Real tests much longer and
+      // more painful
     }
 
