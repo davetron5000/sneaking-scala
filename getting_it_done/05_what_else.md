@@ -8,5 +8,12 @@
 !SLIDE
 # No new deployment dependencies
 
-!SLIDE
-# Can focus on your problem domain/application architecture
+!SLIDE 
+# Can focus on your problem domain
+
+!SLIDE 
+# Tests have a lot of boilerplate
+
+!SLIDE 
+# Scala makes boilerplate go away
+

@@ -48,6 +48,17 @@
 # Model Objects
 
     @@@ Scala
+    class Person(
+      var firstName:String,
+      var lastName:String,
+      var birthdate:Date,
+      var gender:Char,
+      var email:String)
+
+!SLIDE
+# Model Objects
+
+    @@@ Scala
     case class Person(
       @BeanProperty var firstName:String,
       @BeanProperty var lastName:String,
@@ -55,7 +66,7 @@
       @BeanProperty var gender:Char,
       @BeanProperty var email:String)
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 # Low Risk, High Value
 * Very little Scala Knowledge
 * HUGE reduction in code size
@@ -66,16 +77,6 @@
 !SLIDE center
 # Already have a ton <img src="model_classes.png" height="972" />
 
-!SLIDE
-# Sharp Edges
+!SLIDE center
+# Not a significant source of bugs
 
-    @@@ Scala
-    case class Person(
-      @BeanProperty var firstName:String,
-      @BeanProperty var lastName:String,
-      @BeanProperty var birthdate:Date,
-      @BeanProperty var gender:Char,
-      @BeanProperty var email:String,
-      // Java ORMs cannot deal with 
-      // Scala Collections
-      @BeanProperty var addresses:List[Address])

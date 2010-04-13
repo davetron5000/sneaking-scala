@@ -35,32 +35,51 @@
       })
     }
 
-!SLIDE bullets incremental
-# How many new concepts?
+!SLIDE 
+# [1] Basic Syntax - constructor code
 
-* *[1].* Scala syntax - this is constructor code
-* *[2].* types come after a <code>:</code>
-* *[3].* Functions/closures - <code>(page) => {</code> is a function literal
- 
-!SLIDE bullets incremental
-# Reinforce familiar concepts
+    @@@ Scala
+    class WebTestLogin extends WebTestSpec {
+      page("protected", // *1* ...
 
-* Dots - x.y == method call - easy to grok
+!SLIDE
+# [2] types come after a <code>:</code>
+
+    @@@ Scala
+    class WebTestLogin extends WebTestSpec { 
+      page("protected", // *1*
+           (page:PageSpecification) => { // *2*
+
+!SLIDE
+# [3] Anonymous functions/closures
+
+    @@@ Scala
+    class WebTestLogin extends WebTestSpec { 
+      page("protected",
+           (page:PageSpecification) => { // *3*
+            ^^^^param               ^^^^function
+
+!SLIDE bullets incremental
+# Reinforces familiar concepts
+
+* Dots - x.y == method call - easy to understand
 * <code>page</code> - has an obvious type, we can look up its methods
 
 !SLIDE small bullets incremental
 # Ground Rules for Implementation
 * Had a weekend to build it
-* Mixins
-* Case Classes
-* Collections
-* All fair game
+* Mixins, Case Classes, Collections &mdash; All fair game
+* Imperative/OO design
 
 !SLIDE small bullets incremental
 # Ground Rules for Implementation
+* Avoid (initially) confusing features
 * No implicits
-* Imperative/OO design
-* Minimze type parameters
+* Minimize type parameters
+
+!SLIDE small bullets incremental
+# Ground Rules for Implementation
+* Tutorial, scaffolds, documentation
 * Lots of scaladoc
 * "How" and "What" Comments
 

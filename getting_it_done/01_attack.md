@@ -2,7 +2,12 @@
 # How do we make this happen?
 
 !SLIDE bullets incremental
-# C++ to Java
+# Fight the learning curve
+* Sneak it in
+* Control Risk
+
+!SLIDE bullets incremental
+# History Lesson C++ to Java
 * Replace existing apps/write new ones
 * New libraries
 * New deployment mechanism
@@ -15,7 +20,7 @@
 
 !SLIDE center
 # Java to Scala
-![Scala Components](java4.png)
+<img src="java4.png" height="300" />
 
 !SLIDE center
 # Don't need to abandon Java

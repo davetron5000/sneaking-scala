@@ -7,14 +7,14 @@
  
 !SLIDE small bullets incremental
 # Web Testing
-* A New Concept
-* Key to success
-* New API to learn for eveyone
+* New Concept for team
+* Key to success of product
+* New API to learn for everyone
 * Can we sneak in Scala?
 * (and add value :)
 
 !SLIDE smaller
-# HTMLUnit/JWebUnit is assembly language
+# HTMLUnit/JWebUnit is like assembly language
 
     @@@ Java
     public void testLogin {
