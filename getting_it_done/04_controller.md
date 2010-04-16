@@ -1,6 +1,6 @@
 !SLIDE center
 # What about application endpoints?
-![Controller Focus](controller_focus.png)
+<img src="controller_focus.png" height="254" />
 
 !SLIDE 
 # DaveWeb5000 Controller
