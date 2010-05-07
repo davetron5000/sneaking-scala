@@ -2,7 +2,8 @@
 
 Slides for my talk at ScalaDays 2010
 
-* [View online](http://sneaking-scala.heroku.com)
+* [Watch the Talk!](http://days2010.scala-lang.org/node/138/169)
+* [View slides online](http://sneaking-scala.heroku.com)
 
 # Building
 

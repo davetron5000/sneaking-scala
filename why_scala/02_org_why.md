@@ -12,9 +12,6 @@
 !SLIDE
 # Talent attractor
 
-!SLIDE center 
-<img src="curves.png" height="500" />
-
 !SLIDE center
 # Natural progression on the JVM
 ![Comparison](comparison.jpg)
