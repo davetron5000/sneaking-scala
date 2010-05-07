@@ -1,6 +1,6 @@
 !SLIDE center
 # Model/Persistence Layer
-![Model Focus](model_focus.png)
+<img src="model_focus.png" height="254" />
 
 !SLIDE smaller
 # Model Objects

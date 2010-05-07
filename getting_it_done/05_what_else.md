@@ -1,6 +1,6 @@
 !SLIDE  center
 # All is lost?
-![Arch](arch.png)
+<img src="arch.png" height="254" />
 
 !SLIDE center
 # Testing!  <img src="with_testing.png" height="398" />

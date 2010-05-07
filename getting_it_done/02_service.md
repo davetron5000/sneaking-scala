@@ -1,6 +1,6 @@
 !SLIDE center
 # Business Logic
-![Service Focus](service_focus.png)
+<img src="service_focus.png" height="254" />
 
 !SLIDE center smaller
 # Fully Armed and Operational Programming Language <br /><a href="http://www.flickr.com/photos/flying_cloud/2667225198/"><img src="death_star.jpg" height="384" /></a>
@@ -40,29 +40,6 @@
 
 !SLIDE
 <img src="thisroll.jpg" height="577" />
-
-!SLIDE smaller
-# New Concept Overload
-
-    @@@ Scala
-    object MyParser {
-      type E = Expression
-
-      def postfixExp = primaryExp ~ rep(
-          "[" ~> expr <~ "]" ^^ { e => ElementExpression(_:E, e) }
-        | "." ~ "length" ^^^ LengthExpression
-        | "." ~> ident ~ ("(" ~> repsep(expr, ",") <~ ")") ^^ 
-          flatten2 { (f, args) =>
-            CallMethodExpression(_:E, f, args)
-          }
-      ) ^^ flatten2 { (e, ls) => collapse(ls)(e) }
-
-      def expr: Parser[E] = ...
-
-      def collapse(ls: List[E=>E])(e: E) = {
-        ls.foldLeft(e) { (e, f) => f(e) }
-      }
-    }
 
 !SLIDE bullets incremental
 # High Risk 

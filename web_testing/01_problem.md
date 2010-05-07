@@ -3,7 +3,7 @@
 
 !SLIDE center
 # Web Testing
-![Web Testing](web_testing.png)
+<img src="web_testing.png" height="320" />
  
 !SLIDE small bullets incremental
 # Web Testing

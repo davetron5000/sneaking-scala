@@ -14,8 +14,8 @@
 
 !SLIDE center
 # Natural progression on the JVM
-![Comparison](comparison.jpg)
+<img src="comparison.jpg" height="184"/>
 
 !SLIDE center
 # Natural progression on the JVM
-![Comparison](comparison2.jpg)
+<img src="comparison2.jpg" height="184"/>

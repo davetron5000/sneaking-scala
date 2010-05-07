@@ -11,12 +11,12 @@
 # Where do I even _find_ a Scala developer?
 
 !SLIDE 
-# ![Developers](popularity.png)
+<img src="popularity.png" height="400" />
 http://langpop.com/
 
 !SLIDE
 # Java's delivering
 
 !SLIDE full-page
-![Obama says Java is delivering](obama.jpg)
+<img src="obama.jpg" height="365"/>
 
